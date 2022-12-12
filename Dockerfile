@@ -11,7 +11,7 @@ COPY --chown=node:node . .
 
 RUN npm install && \
     npm install redis@0.8.1 && \
-    npm install pg@4.5.7 && \
+    npm install pg@8.0.1 && \
     npm install memcached@2.2.2 && \
     npm install aws-sdk@2.814.0 && \
     npm install rethinkdbdash@2.3.31
