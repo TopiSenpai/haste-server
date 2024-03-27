@@ -17,7 +17,7 @@ textarea {
 	outline: none;
 	resize: none;
 	font-size: 13px;
-	margin-top: 0;
+	margin-top: 70px;
 	margin-bottom: 0;
 }
 
@@ -27,7 +27,7 @@ textarea {
   color: #7d7d7d;
 	z-index: -1000;
 	position: absolute;
-	top: 20px;
+	top: 90px;
 	left: 0px;
 	width: 30px; /* 30 to get 20 away from box */
 	font-size: 13px;
@@ -57,7 +57,7 @@ textarea {
 
 #key {
 	position: fixed;
-	top: 0px;
+	top: 80px;
 	right: 0px;
 	z-index: +1000; /* watch out */
 }
@@ -173,3 +173,31 @@ textarea {
 	background:rgba(102,8,0,0.8);
 }
 
+
+/* april fools */
+#april-fools-container {
+	/* the 3em account for the padding */
+	width: calc(100vw - 3em);
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1em 1.5em;
+	background-color: #FFFFFF;
+	color: #4f4f4f;
+	font-family: Helvetica, sans-serif;
+}
+
+#april-fools-left {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	line-height: 1.5;
+}
+
+#april-fools-container a {
+	color: #204fcf;
+	font-weight: bold;
+}
